@@ -725,12 +725,6 @@ footer{
       padding: 0 1rem;
       align-items: baseline;
     }
-/*     .project{
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      height: 100%;
-    } */
     .project-info h3 {
       font-size: 1.2rem;
     }
@@ -739,10 +733,6 @@ footer{
       padding: 0.4rem 0.8rem;
     }
     .project-image img {
-      width: 5rem;
-      height: 5rem;
-      margin: 0;
-      padding: 0;
       display: block;
       object-fit: cover;
       z-index: -1;
