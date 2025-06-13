@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="bag.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="home">
+    <div class="navbar">
+        <div class="navbar-content">
+            <h1 id="Portfolio" class="flex-1"><span class="header-img"><img src="favicon.png" id="favicon-img">Portfolio</span></h1>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+    <nav class="flex-1 nav-links">
+        <ul>
+         <li><a href="#home"><i class="fa-solid fa-house icon"></i>Home</a></li>
+         <li><a href="#about"><i class="fa-solid fa-circle-user icon"></i>About</a></li>
+         <li><a href="#certificates"><i class="fa-solid fa-award icon"></i>Certificates</a></li>
+         <li><a href="#projects"><i class="fa-solid fa-laptop icon"></i>Projects</a></li>
+         <li><a href="#contact"><i class="fa-solid fa-envelope icon"></i>Contact</a></li>
+        </ul>
+    </nav>
+        </div>
+    </div>
+     <!-- the backgroud-video -->
+    <div class="video">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+</header>
+<section class="section-1">
+    <div class="flex-2">
+        <div>
+            <span class="info-headings">
+                <h1>Hi, I am</h1>
+                <h1>Fatana Mawlawizadeh</h1>
+            </span>
+            <h2 class="typing-text"> A
+                <span></span> 
+                <p class="blink">|</p>
+            </h2>
+        </div>
+        <div>
+            <img src="binary-code.png" class="home-image">
+        </div>
+    </div>
+</section>
+<section id="about">
+    <div>
+        <img src="question-mark.png" class="profile-img">
+    </div>
+    <div class="information">
+        <h1>Who am I?</h1>
+        <p id="para">
+                I am <span>Fatana Mawlawizadeh</span>, a passionate learner and aspiring web developer. 
+                I enjoy turning creative ideas into interactive websites using HTML, CSS, and a growing set of tools. 
+                With a strong curiosity for design and a love for clean, user-friendly layouts, 
+                I’m always exploring new ways to improve and build better digital experiences. 
+                This portfolio showcases some of the projects I’ve worked on as I continue learning and 
+                growing in the world of web development.
+        </p>
+    </div>  
+</section>
+<section id="certificates">
+    <hr class="gradient-line">
+    <h1 class="title">Certificates</h1>
+    <!-- grided parts -->
+    <div class="grid-2">
+        <div class="certificate-1">
+            <h1>SheCodes Basics</h1>
+            <button><a href="https://www.shecodes.io/graduates/164415-fatana-mawlawizadeh" target="_blank"><img src="first_workshop_certificate.png"></a></button>
+        </div>
+        <div class="certificate-2">
+            <h1>SheCodes Basics-Add-On</h1>
+            <button><a href="https://www.shecodes.io/graduates/164415-fatana-mawlawizadeh" target="_blank"><img src="certificate_@.png"></a></button>
+        </div>
+    </div>
+</section>
+<!-- projects section -->
+<section id="projects">
+    <hr class="gradient-line">
+    <h1 class="excepted-h1">Projects</h1>
+    <div class="project-container">
+        <div class="project">
+            <div class="project-image">
+                <img src="Movietheather.png">
+                <div class="project-info">
+                    <h3>Movie Theater</h3>
+                    <a href="https://fataneh-mow.github.io/theater/" target="_blank" class="view">Launch Project</a>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <!-- third project  -->
+        <div class="project-image">
+            <img src="weatherApp.png">
+            <div class="project-info">
+                <h3>Weather App</h3>
+                <a href="https://fataneh-mow.github.io/WeatherApp/" target="_blank" class="view">Launch Project</a>
+            </div>
+        </div>
+        </div>
+       <div class="project">
+        <!-- second project -->
+        <div class="project-image">
+            <img src="screencapture-fataneh-mow-github-io-Personal-Hub-info-2025-06-08-09_25_10.png">
+            <div class="project-info">
+                <h3>Personal Info Hub</h3>
+                <a href="https://fataneh-mow.github.io/Personal_Hub_info/" target="_blank" class="view">Launch Project</a>
+            </div>
+        </div>
+       </div>
+        <div class="project">
+            <!-- fourth project  -->
+        <div class="project-image">
+            <img src="culturalCities.png">
+            <div class="project-info">
+                <h3>Cultural Cities Of Afghanistan</h3>
+                <a href="https://fataneh-mow.github.io/Cultural-Cities/" target="_blank" class="view">Launch Project</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="contact-container">
+        <div class="image">
+            <img src="dove_transparent_fixed.gif" >
+        </div>
+        <div class="form-container">
+            <h1>Contact Me</h1>
+            <form action="index.html">
+                <input type="text" placeholder="First Name" id="Fname" required>
+                <br>
+                <input type="text" name="Lname" id="Lname" placeholder="Last Name" required>
+                <br>
+                <textarea name="massage" id="massage" placeholder="Write your massage here" rows="6" required></textarea>
+                <br>
+                <input type="submit" placeholder="Send" id="submit">
+            </form>
+            <div class="icon-container">
+                <a href="https://github.com/fataneh-mow"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/fataneh-mowlavezadeh-11a625342/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/fataneh_mow"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="mailto:fataneh.mow@gmail.com"><i class="fa-solid fa-square-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2025 All rights reserved</p>
+</footer>
+</body>
+</html>
